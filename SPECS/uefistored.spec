@@ -67,7 +67,7 @@ make test
 %{_sbindir}/secureboot-certs
 
 %changelog
-* Thu Mar 04 2021 Bobby Eshleman <bobby.eshleman@gmail.com> - 0.4.0-1
+* Tue Mar 23 2021 Bobby Eshleman <bobby.eshleman@gmail.com> - 0.4.2-1
 - Update to 0.4.2
 - Add secureboot-certs script
 - Require varstored-tools for secureboot-certs
