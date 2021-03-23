@@ -17,6 +17,7 @@ BuildRequires:  libseccomp-devel
 BuildRequires:  clang-analyzer
 BuildRequires:  git
 BuildRequires:  valgrind
+BuildRequires:  libasan
 
 Requires: varstored-guard
 Requires: varstored-tools
