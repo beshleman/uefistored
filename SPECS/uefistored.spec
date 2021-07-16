@@ -1,5 +1,5 @@
 Name:           uefistored
-Version:        1.0.0
+Version:        1.0.1
 Release:        1%{?dist}
 Summary:        Variables store for UEFI guests
 License:        GPLv2
@@ -85,6 +85,9 @@ make test
 %{_datadir}/varstored/dbx.auth
 
 %changelog
+* Thu Jul 15 2021 Bobby Eshleman <bobbyeshleman@gmail.com> - 1.0.1-1
+- Fix the Windows KB4535680 update bug
+
 * Thu Jul 01 2021 Bobby Eshleman <bobbyeshleman@gmail.com> - 1.0.0-1
 - Update tarball to be that from tag v1.0.0
 - Update PK to a more sensible dummy CN
